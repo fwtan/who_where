@@ -18,19 +18,20 @@ Image compositing is a method used to generate realistic yet fake imagery by ins
   ```
   We'll call the directory that you cloned the repo into `COMP_ROOT`
 
+
 2. Compile the Cython and pycocotools modules
     ```Shell
     cd $COMP_ROOT/lib
     make
     ```
-    
+
 3. Download the auxiliary data, pretrained model and example inputs
     ```Shell
     cd $COMP_ROOT/tools
     ./fetch_data.sh
     ```
-    This will populate the `$COMP_ROOT/data` folder with `coco`, `pretrained`, `pretrained` and `testset`. 
-    These models were trained on COCO 2014 train split.
+    This will populate the `$COMP_ROOT/data` folder with `coco`, `pretrained`, and `testset`. 
+
 
 4. Download the COCO 2014 val split and annotations if you have not done so
     ```Shell
