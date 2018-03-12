@@ -33,7 +33,7 @@ Image compositing is a method used to generate realistic yet fake imagery by ins
     This will populate the `$COMP_ROOT/data` folder with `coco`, `pretrained`, and `testset`. 
 
 
-4. Download the COCO 2014 val split and annotations if you have not done so
+4. Download the COCO 2014 validation set and the annotations if you have not done so
     ```Shell
     cd $COMP_ROOT/tools
     ./fetch_coco.sh
