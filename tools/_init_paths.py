@@ -1,8 +1,9 @@
 # --------------------------------------------------------
-# Who_where
-# Copyright (c) 2016 University of Virginia
+# Fast R-CNN
+# Copyright (c) 2015 Microsoft
 # Licensed under The MIT License [see LICENSE for details]
-# Written by Fuwen Tan @ U.Va (2017)
+# Written by Ross Girshick
+# Modified by Fuwen Tan @ U.Va (2017)
 # --------------------------------------------------------
 
 
