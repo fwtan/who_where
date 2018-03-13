@@ -63,6 +63,13 @@ the third row shows the composite outputs.
 
 <img src='data/examples/1159362_00_00_000000255753.jpg' height="150"/> <img src='data/examples/1159471_00_00_000000204017.jpg' height="150"/> <img src='data/examples/2356456_00_00_000002154206.jpg' height="150"/> <img src='data/examples/2319029_00_00_000000430780.jpg' height="150"/> 
 
+## Test with your own images
+As the model takes both the color and layout image as input, if you'd like to test with your own images, you may have to collect the object detection results on the input images first.
+
+We provide an example script [$COMP_ROOT/tools/collect_detections.py] to collect the detection outputs from the Faster RCNN system (https://github.com/rbgirshick/py-faster-rcnn). 
+Example outputs are also included in the directory [$COMP_ROOT/data/testset/test_detections].
+
+For each image, the detection output is a JSON file containing the bounding boxes and categories of the detected objects. The class IDs we use are the same as the [Faster RCNN system](https://github.com/rbgirshick/py-faster-rcnn). 
 
 
 ## Citing
