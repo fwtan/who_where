@@ -50,7 +50,7 @@ To run the demo
 cd $COMP_ROOT/tools
 python demo.py
 ```
-You can find the output images in ```$COMP_ROOT/output/composite_colors```.
+You can find the output composite images in ```$COMP_ROOT/output/composite_colors```.
 
 ## Example outputs
 Here the first row shows the input images; 
