@@ -54,8 +54,8 @@ You can find the output images within $COMP_ROOT/output/composite_colors
 
 ## Example outputs
 Here the first row shows the input images; 
-The second row shows the heatmaps of the bounding box prediction, in which the green boxes indicate the top-1 predictions;
-The third row shows the composite outputs.
+the second row shows the heatmaps of the bounding box prediction, in which the green boxes indicate the top-1 predictions;
+the third row shows the composite outputs.
 
 <img src='data/examples/1159362.jpg' height="150"/> <img src='data/examples/1159471.jpg' height="150"/> <img src='data/examples/2356456.jpg' height="150"/> <img src='data/examples/2319029.jpg' height="150"/> 
 
