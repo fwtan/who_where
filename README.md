@@ -57,11 +57,11 @@ Here the first row shows the input images;
 The second row shows the heatmaps of the bounding box prediction, in which the green boxes indicate the top-1 predictions;
 The third row shows the composite outputs.
 
-<img src='data/examples/1159362.jpg' height="130"/> <img src='data/examples/1159471.jpg' height="130"/> <img src='data/examples/2356456.jpg' height="130"/> <img src='data/examples/2319029.jpg' height="130"/> 
+<img src='data/examples/1159362.jpg' height="140"/> <img src='data/examples/1159471.jpg' height="140"/> <img src='data/examples/2356456.jpg' height="140"/> <img src='data/examples/2319029.jpg' height="140"/> 
 
-<img src='data/examples/0000_1159362_ol.jpg' height="130"/> <img src='data/examples/0000_1159471_ol.jpg' height="130"/> <img src='data/examples/0000_2356456_ol.jpg' height="130"/> <img src='data/examples/0000_2319029_ol.jpg' height="130"/> 
+<img src='data/examples/0000_1159362_ol.jpg' height="140"/> <img src='data/examples/0000_1159471_ol.jpg' height="140"/> <img src='data/examples/0000_2356456_ol.jpg' height="140"/> <img src='data/examples/0000_2319029_ol.jpg' height="140"/> 
 
-<img src='data/examples/1159362_00_00_000000255753.jpg' height="130"/> <img src='data/examples/1159471_00_00_000000204017.jpg' height="130"/> <img src='data/examples/2356456_00_00_000002154206.jpg' height="130"/> <img src='data/examples/2319029_00_00_000000430780.jpg' height="130"/> 
+<img src='data/examples/1159362_00_00_000000255753.jpg' height="140"/> <img src='data/examples/1159471_00_00_000000204017.jpg' height="140"/> <img src='data/examples/2356456_00_00_000002154206.jpg' height="140"/> <img src='data/examples/2319029_00_00_000000430780.jpg' height="140"/> 
 
 
 
