@@ -71,6 +71,9 @@ Example outputs are also included in the directory ```$COMP_ROOT/data/testset/te
 
 For each image, the detection output is a JSON file containing the bounding boxes and categories of the detected objects. The class IDs we use are the same as the [Faster RCNN system](https://github.com/rbgirshick/py-faster-rcnn). 
 
+Once the detection outputs are available, the ```$COMP_ROOT/tools/create_layouts.py``` script could help render the detections as layout images.
+
+Please contact Fuwen Tan (fuwen.tan@virginia.edu) if you have any questions.
 
 ## Citing
 
