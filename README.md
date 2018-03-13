@@ -39,7 +39,7 @@ Image compositing is a method used to generate realistic yet fake imagery by ins
     ./fetch_coco.sh
     ```
     This will populate the `$COMP_ROOT/data` folder with `coco/images` and `coco/annotations`. 
-    The validation set of COCO is used to help build candidate pool for segment retrieval.
+    The COCO validation data is used to help build candidate pool for segment retrieval.
 
 
 ## Demo
@@ -50,6 +50,26 @@ To run the demo
 cd $COMP_ROOT/tools
 python demo.py
 ```
+You can find the output images within $COMP_ROOT/output/composite_colors
+
+## Example outputs
+Here the first row shows the input images; 
+The second row shows the heatmaps of the bounding box prediction, in which the green boxes indicate the top-1 predictions;
+The third row shows the composite outputs.
+
+<img src='data/examples/1159362.jpg' width="160"/> 
+<img src='data/examples/1159471.jpg' width="160"/> 
+<img src='data/examples/2318632.jpg' width="160"/>
+<img src='data/examples/2319029.jpg' width="160"/> \\
+<img src='data/examples/0000_1159362_ol.jpg' width="160"/> 
+<img src='data/examples/0000_1159471_ol.jpg' width="160"/> 
+<img src='data/examples/0000_2318632_ol.jpg' width="160"/>
+<img src='data/examples/0000_2319029_ol.jpg' width="160"/> \\
+<img src='data/examples/1159362_00_00_000000255753.jpg' width="160"/> 
+<img src='data/examples/1159471_00_00_000000204017.jpg' width="160"/> 
+<img src='data/examples/2318632_00_00_000001249107.jpg' width="160"/>
+<img src='data/examples/2319029_00_00_000000430780.jpg' width="160"/> 
+
 
 
 ## Citing
