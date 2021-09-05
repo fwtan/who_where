@@ -79,7 +79,7 @@ Please contact Fuwen Tan (fuwen.tan@virginia.edu) if you have any questions.
 
 If you find our paper/code useful, please consider citing:
 
-	@article{tan2018,
+	@inproceedings{tan2018,
         title={Where and Who? Automatic Semantic-Aware Person Composition},
         author={Tan, Fuwen and Bernier, Crispin and Cohen, Benjamin and Ordonez, Vicente and Barnes, Connelly},
         booktitle={IEEE Winter Conf. on Applications of Computer Vision (WACV)},
