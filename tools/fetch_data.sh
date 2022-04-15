@@ -1,7 +1,7 @@
 #!/bin/bash
 
-COCO_AUX_URL=www.cs.virginia.edu/~ft3ex/data/who_where/coco_aux.zip
-PRTRAINED_URL=www.cs.virginia.edu/~ft3ex/data/who_where/pretrained_model_and_testset.zip
+COCO_AUX_URL=https://www.cs.rice.edu/~vo9/fuwen/who_where/coco_aux.zip
+PRTRAINED_URL=https://www.cs.rice.edu/~vo9/fuwen/who_where/pretrained_model_and_testset.zip
 
 echo "Downloading auxiliary data for coco ..."
 wget $COCO_AUX_URL -O coco_aux.zip
